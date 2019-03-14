@@ -1,4 +1,4 @@
-// Roteiro 2 - Programa 2a - EA871-1S2019 - Aciona LEDs da placa Shield
+// Roteiro 2 - EA871-1S2019 - Aciona LEDs da placa Shield dependendo dos botoes
 #include "derivative.h" /* include peripheral declarations */
 #define SET_BIT(reg, idx)	reg = (reg | (1 << idx))		// Macro que seta o bit idx do registrador reg
 
